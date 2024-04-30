@@ -1,0 +1,51 @@
+#contenedor {
+  margin-left: 350px;
+  height: 700px;
+  width: 1000px;
+
+}
+#contenedor1 {
+  display: grid;
+
+  grid-template-columns: repeat(3, 140px);
+
+  height: 420px;
+  width: 420px;
+  background-color: rgb(114, 117, 117);
+  border: solid;
+  margin-top: 10px;
+  justify-content: center;
+
+  margin-left: 300px;
+}
+
+.item {
+  border: solid;
+}
+
+#jugadores {
+  display: flex;
+  justify-content: space-around;
+  border: solid;
+}
+
+#jugador1 {
+  display: flex;
+  justify-content: center;
+  border: solid;
+  width: 200px;
+}
+
+#jugador2 {
+  display: flex;
+  justify-content: center;
+  border: solid;
+  width: 200px;
+}
+
+#boton {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  height: 40px;
+}
